@@ -1,0 +1,4 @@
+{
+    "best_model_name": "CatBoost",
+    "test_auc": 0.8106
+}

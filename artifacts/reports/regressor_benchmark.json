@@ -1,0 +1,57 @@
+[
+    {
+        "Model": "CatBoost_Regressor",
+        "SBP_RMSE_mmHg": 3.342,
+        "SBP_MAE_mmHg": 2.7,
+        "SBP_R2": 0.4027,
+        "SBP_MAPE_pct": 34.28,
+        "DBP_RMSE_mmHg": 2.43,
+        "DBP_MAE_mmHg": 1.985,
+        "DBP_R2": 0.2629,
+        "DBP_MAPE_pct": 52.53
+    },
+    {
+        "Model": "LightGBM_Regressor",
+        "SBP_RMSE_mmHg": 3.386,
+        "SBP_MAE_mmHg": 2.705,
+        "SBP_R2": 0.3867,
+        "SBP_MAPE_pct": 34.62,
+        "DBP_RMSE_mmHg": 2.48,
+        "DBP_MAE_mmHg": 2.02,
+        "DBP_R2": 0.2324,
+        "DBP_MAPE_pct": 53.08
+    },
+    {
+        "Model": "XGBoost_Regressor",
+        "SBP_RMSE_mmHg": 3.406,
+        "SBP_MAE_mmHg": 2.723,
+        "SBP_R2": 0.3797,
+        "SBP_MAPE_pct": 34.37,
+        "DBP_RMSE_mmHg": 2.488,
+        "DBP_MAE_mmHg": 2.03,
+        "DBP_R2": 0.2274,
+        "DBP_MAPE_pct": 53.27
+    },
+    {
+        "Model": "Ridge_Regressor",
+        "SBP_RMSE_mmHg": 3.495,
+        "SBP_MAE_mmHg": 2.817,
+        "SBP_R2": 0.3468,
+        "SBP_MAPE_pct": 35.4,
+        "DBP_RMSE_mmHg": 2.479,
+        "DBP_MAE_mmHg": 2.035,
+        "DBP_R2": 0.2329,
+        "DBP_MAPE_pct": 53.52
+    },
+    {
+        "Model": "Random_Forest_Regressor",
+        "SBP_RMSE_mmHg": 3.525,
+        "SBP_MAE_mmHg": 2.837,
+        "SBP_R2": 0.3355,
+        "SBP_MAPE_pct": 36.1,
+        "DBP_RMSE_mmHg": 2.516,
+        "DBP_MAE_mmHg": 2.053,
+        "DBP_R2": 0.2095,
+        "DBP_MAPE_pct": 54.6
+    }
+]
